@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A973DD9E19870C230039CB4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A973DD9D19870C230039CB4B /* Foundation.framework */; };
+		A973DDA019870C230039CB4B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A973DD9F19870C230039CB4B /* CoreGraphics.framework */; };
+		A973DDA219870C230039CB4B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A973DDA119870C230039CB4B /* UIKit.framework */; };
+		A973DDA419870C230039CB4B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A973DDA319870C230039CB4B /* CoreData.framework */; };
+		A973DDAA19870C230039CB4B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A973DDA819870C230039CB4B /* InfoPlist.strings */; };
+		A973DDAC19870C230039CB4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A973DDAB19870C230039CB4B /* main.m */; };
+		A973DDB019870C230039CB4B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A973DDAF19870C230039CB4B /* AppDelegate.m */; };
+		A973DDB319870C230039CB4B /* cityWalker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A973DDB119870C230039CB4B /* cityWalker.xcdatamodeld */; };
+		A973DDB519870C230039CB4B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A973DDB419870C230039CB4B /* Images.xcassets */; };
+		A973DDBC19870C230039CB4B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A973DDBB19870C230039CB4B /* XCTest.framework */; };
+		A973DDBD19870C230039CB4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A973DD9D19870C230039CB4B /* Foundation.framework */; };
+		A973DDBE19870C230039CB4B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A973DDA119870C230039CB4B /* UIKit.framework */; };
+		A973DDBF19870C230039CB4B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A973DDA319870C230039CB4B /* CoreData.framework */; };
+		A973DDC719870C230039CB4B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A973DDC519870C230039CB4B /* InfoPlist.strings */; };
+		A973DDC919870C230039CB4B /* cityWalkerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A973DDC819870C230039CB4B /* cityWalkerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A973DDC019870C230039CB4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A973DD9219870C230039CB4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A973DD9919870C230039CB4B;
+			remoteInfo = cityWalker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A973DD9A19870C230039CB4B /* cityWalker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cityWalker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A973DD9D19870C230039CB4B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A973DD9F19870C230039CB4B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A973DDA119870C230039CB4B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A973DDA319870C230039CB4B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A973DDA719870C230039CB4B /* cityWalker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "cityWalker-Info.plist"; sourceTree = "<group>"; };
+		A973DDA919870C230039CB4B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A973DDAB19870C230039CB4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A973DDAD19870C230039CB4B /* cityWalker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cityWalker-Prefix.pch"; sourceTree = "<group>"; };
+		A973DDAE19870C230039CB4B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A973DDAF19870C230039CB4B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A973DDB219870C230039CB4B /* cityWalker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = cityWalker.xcdatamodel; sourceTree = "<group>"; };
+		A973DDB419870C230039CB4B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A973DDBA19870C230039CB4B /* cityWalkerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cityWalkerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A973DDBB19870C230039CB4B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A973DDC419870C230039CB4B /* cityWalkerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "cityWalkerTests-Info.plist"; sourceTree = "<group>"; };
+		A973DDC619870C230039CB4B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A973DDC819870C230039CB4B /* cityWalkerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cityWalkerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A973DD9719870C230039CB4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A973DDA019870C230039CB4B /* CoreGraphics.framework in Frameworks */,
+				A973DDA419870C230039CB4B /* CoreData.framework in Frameworks */,
+				A973DDA219870C230039CB4B /* UIKit.framework in Frameworks */,
+				A973DD9E19870C230039CB4B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A973DDB719870C230039CB4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A973DDBC19870C230039CB4B /* XCTest.framework in Frameworks */,
+				A973DDBF19870C230039CB4B /* CoreData.framework in Frameworks */,
+				A973DDBE19870C230039CB4B /* UIKit.framework in Frameworks */,
+				A973DDBD19870C230039CB4B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A973DD9119870C230039CB4B = {
+			isa = PBXGroup;
+			children = (
+				A973DDA519870C230039CB4B /* cityWalker */,
+				A973DDC219870C230039CB4B /* cityWalkerTests */,
+				A973DD9C19870C230039CB4B /* Frameworks */,
+				A973DD9B19870C230039CB4B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A973DD9B19870C230039CB4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A973DD9A19870C230039CB4B /* cityWalker.app */,
+				A973DDBA19870C230039CB4B /* cityWalkerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A973DD9C19870C230039CB4B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A973DD9D19870C230039CB4B /* Foundation.framework */,
+				A973DD9F19870C230039CB4B /* CoreGraphics.framework */,
+				A973DDA119870C230039CB4B /* UIKit.framework */,
+				A973DDA319870C230039CB4B /* CoreData.framework */,
+				A973DDBB19870C230039CB4B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A973DDA519870C230039CB4B /* cityWalker */ = {
+			isa = PBXGroup;
+			children = (
+				A973DDAE19870C230039CB4B /* AppDelegate.h */,
+				A973DDAF19870C230039CB4B /* AppDelegate.m */,
+				A973DDB419870C230039CB4B /* Images.xcassets */,
+				A973DDB119870C230039CB4B /* cityWalker.xcdatamodeld */,
+				A973DDA619870C230039CB4B /* Supporting Files */,
+			);
+			path = cityWalker;
+			sourceTree = "<group>";
+		};
+		A973DDA619870C230039CB4B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A973DDA719870C230039CB4B /* cityWalker-Info.plist */,
+				A973DDA819870C230039CB4B /* InfoPlist.strings */,
+				A973DDAB19870C230039CB4B /* main.m */,
+				A973DDAD19870C230039CB4B /* cityWalker-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A973DDC219870C230039CB4B /* cityWalkerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A973DDC819870C230039CB4B /* cityWalkerTests.m */,
+				A973DDC319870C230039CB4B /* Supporting Files */,
+			);
+			path = cityWalkerTests;
+			sourceTree = "<group>";
+		};
+		A973DDC319870C230039CB4B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A973DDC419870C230039CB4B /* cityWalkerTests-Info.plist */,
+				A973DDC519870C230039CB4B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A973DD9919870C230039CB4B /* cityWalker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A973DDCC19870C230039CB4B /* Build configuration list for PBXNativeTarget "cityWalker" */;
+			buildPhases = (
+				A973DD9619870C230039CB4B /* Sources */,
+				A973DD9719870C230039CB4B /* Frameworks */,
+				A973DD9819870C230039CB4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cityWalker;
+			productName = cityWalker;
+			productReference = A973DD9A19870C230039CB4B /* cityWalker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A973DDB919870C230039CB4B /* cityWalkerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A973DDCF19870C230039CB4B /* Build configuration list for PBXNativeTarget "cityWalkerTests" */;
+			buildPhases = (
+				A973DDB619870C230039CB4B /* Sources */,
+				A973DDB719870C230039CB4B /* Frameworks */,
+				A973DDB819870C230039CB4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A973DDC119870C230039CB4B /* PBXTargetDependency */,
+			);
+			name = cityWalkerTests;
+			productName = cityWalkerTests;
+			productReference = A973DDBA19870C230039CB4B /* cityWalkerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A973DD9219870C230039CB4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Newcastle University";
+				TargetAttributes = {
+					A973DDB919870C230039CB4B = {
+						TestTargetID = A973DD9919870C230039CB4B;
+					};
+				};
+			};
+			buildConfigurationList = A973DD9519870C230039CB4B /* Build configuration list for PBXProject "cityWalker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A973DD9119870C230039CB4B;
+			productRefGroup = A973DD9B19870C230039CB4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A973DD9919870C230039CB4B /* cityWalker */,
+				A973DDB919870C230039CB4B /* cityWalkerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A973DD9819870C230039CB4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A973DDAA19870C230039CB4B /* InfoPlist.strings in Resources */,
+				A973DDB519870C230039CB4B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A973DDB819870C230039CB4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A973DDC719870C230039CB4B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A973DD9619870C230039CB4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A973DDB019870C230039CB4B /* AppDelegate.m in Sources */,
+				A973DDB319870C230039CB4B /* cityWalker.xcdatamodeld in Sources */,
+				A973DDAC19870C230039CB4B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A973DDB619870C230039CB4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A973DDC919870C230039CB4B /* cityWalkerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A973DDC119870C230039CB4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A973DD9919870C230039CB4B /* cityWalker */;
+			targetProxy = A973DDC019870C230039CB4B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A973DDA819870C230039CB4B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A973DDA919870C230039CB4B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A973DDC519870C230039CB4B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A973DDC619870C230039CB4B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A973DDCA19870C230039CB4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A973DDCB19870C230039CB4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A973DDCD19870C230039CB4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cityWalker/cityWalker-Prefix.pch";
+				INFOPLIST_FILE = "cityWalker/cityWalker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A973DDCE19870C230039CB4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cityWalker/cityWalker-Prefix.pch";
+				INFOPLIST_FILE = "cityWalker/cityWalker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A973DDD019870C230039CB4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/cityWalker.app/cityWalker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cityWalker/cityWalker-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "cityWalkerTests/cityWalkerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A973DDD119870C230039CB4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/cityWalker.app/cityWalker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cityWalker/cityWalker-Prefix.pch";
+				INFOPLIST_FILE = "cityWalkerTests/cityWalkerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A973DD9519870C230039CB4B /* Build configuration list for PBXProject "cityWalker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A973DDCA19870C230039CB4B /* Debug */,
+				A973DDCB19870C230039CB4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A973DDCC19870C230039CB4B /* Build configuration list for PBXNativeTarget "cityWalker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A973DDCD19870C230039CB4B /* Debug */,
+				A973DDCE19870C230039CB4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A973DDCF19870C230039CB4B /* Build configuration list for PBXNativeTarget "cityWalkerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A973DDD019870C230039CB4B /* Debug */,
+				A973DDD119870C230039CB4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A973DDB119870C230039CB4B /* cityWalker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A973DDB219870C230039CB4B /* cityWalker.xcdatamodel */,
+			);
+			currentVersion = A973DDB219870C230039CB4B /* cityWalker.xcdatamodel */;
+			path = cityWalker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A973DD9219870C230039CB4B /* Project object */;
+}
